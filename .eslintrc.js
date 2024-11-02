@@ -10,7 +10,7 @@ module.exports = {
     sourceType: 'module',
     requireConfigFile: false,
   },
-  ignorePatterns: ['scripts/@stevenwcarter/**'],
+  ignorePatterns: ['scripts/__stevenwcarter__/**'],
   rules: {
     'no-console': 'off',
     'import/extensions': ['error', { js: 'always' }], // require js file extensions in imports
