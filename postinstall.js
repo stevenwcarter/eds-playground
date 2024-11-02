@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Define the dest folder
-const dropinsDir = path.join('scripts', '@stevenwcarter');
+const dropinsDir = path.join('scripts', '__stevenwcarter__');
 
 // Remove existing dropins folder
 if (fs.existsSync(dropinsDir)) {
