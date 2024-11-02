@@ -21,9 +21,11 @@
     "url": "https://github.com/stevenwcarter/eds-playground/issues"
   },
   "homepage": "https://github.com/stevenwcarter/eds-playground#readme",
+  "dependencies": {
+    "@stevenwcarter/img-optimizer-eds": "0.1.6"
+  },
   "devDependencies": {
     "@babel/eslint-parser": "7.25.9",
-    "@stevenwcarter/img-optimizer-eds": "0.1.6",
     "eslint": "8.57.1",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.31.0",
